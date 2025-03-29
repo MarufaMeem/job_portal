@@ -1,0 +1,8 @@
+# Ignore everything
+
+# Except the backend directory
+!/backend/
+!.gitignore
+
+# But ignore contents inside backend/node_modules if it exists
+backend/node_modules/
