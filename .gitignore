@@ -1,8 +1,10 @@
-# Ignore everything
+# Ignore everything by default
+*
 
-# Except the backend directory
+# Except these specific items:
+!/.gitignore
 !/backend/
-!.gitignore
+!/backend/**  # This ensures files inside backend are also included
 
-# But ignore contents inside backend/node_modules if it exists
-backend/node_modules/
+# Explicitly ignore node_modules everywhere
+**/node_modules/
