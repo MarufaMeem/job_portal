@@ -1,0 +1,17 @@
+backend/node_modules/
+backend/.env
+
+
+# Ignore backend node_modules and .env
+/backend/node_modules/
+backend/node_modules/
+backend/.env
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+*.log
+
+# Ignore logs and envs globally
+*.env
+*.log
